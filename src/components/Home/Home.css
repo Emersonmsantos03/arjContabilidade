@@ -210,6 +210,11 @@ a{
         
     }
 
+    .whatsapp img{
+        height: 2.5rem;
+        transition: 1s ease;
+    }
+
 }
     
 
