@@ -1,0 +1,388 @@
+.home{
+    background-image: url(/public/images/background.png);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    
+}
+.header{
+    height: 10vh;
+}
+a{
+    text-decoration: none;
+    color: #F4F4F4;
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-left: 12rem;
+    
+}
+
+.nav-button{
+    height: 3rem;
+    width: 12rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #3081DB;
+    transition: 0.7s;
+
+}
+.nav-button:hover{
+    background-color: #0a3e7a;
+    transition: 1s;
+}
+
+
+
+.nav a{
+    font-size: 1.7rem;
+    color: #F4F4F4;
+    font-weight: 200;
+    transition: 1s;
+    display: flex;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    grid-gap: 10rem;
+}
+.main h1{
+    font-size: 3rem;
+    font-family: var(--fonte);
+    width: 45rem;
+    height: 10rem;
+    font-weight: 700;
+    color: #3081DB;
+}
+
+.main strong {
+    color: #F4F4F4;
+}
+
+.main-button{
+    width: 36rem;
+    height: 3.5rem;
+    font-family: var(--fonte);
+    font-size: 1.5rem;
+    border-radius: 30px;
+    background-color: transparent;
+    border: #3081DB 2px solid;
+    color: #F4F4F4;
+    transition: 0.8s;
+
+}
+
+
+
+.main-button:hover{
+    color: #3081DB;
+    background-color: #3081DB;
+    border: #3081DB 2px solid;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.logotipo{
+    position: fixed;
+    left: 48%;
+    margin-bottom: 2rem;
+    top: 2%;
+    height: 4rem;
+    
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+
+.whatsapp img{
+    height: 4rem;
+    transition: 1s ease;
+}
+
+
+.whatsapp:hover{
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    transition: 1s ease;
+}
+
+.buttons {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .home {
+        background-image: url(/public/images/background.png);
+        background-repeat: no-repeat;
+        background-size: cover; /* Para garantir que a imagem de fundo cubra toda a tela */
+        min-height: 100vh; /* Usar min-height para garantir que o conteúdo se estenda até o final da tela */
+        display: flex;
+        flex-direction: column;
+        background-position: 80%;
+    }
+    
+    .header {
+        height: 8vh; /* Reduzindo a altura do cabeçalho para economizar espaço na tela */
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; /* Alinhando os itens horizontalmente com espaço igual entre eles */
+        align-items: center;
+        height: 8vh; /* Reduzindo a altura da barra de navegação */
+        font-family: 'Inter', sans-serif;
+        display: none;
+    }
+    
+    .nav-button {
+        height: 2.5rem; /* Reduzindo a altura dos botões de navegação */
+        width: auto;
+        display: none; /* Permitindo que o tamanho do botão se ajuste ao conteúdo */
+    }
+    
+    .nav a {
+        font-size: 1.2rem; /* Reduzindo o tamanho do texto */
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem; /* Adicionando algum espaço ao redor do conteúdo */
+    }
+    
+    .main h1 {
+        font-size: 2.5rem; /* Reduzindo o tamanho do título */
+        width: 80%; /* Usando largura relativa para garantir que o texto não seja muito largo em telas pequenas */
+        text-align: center; /* Centralizando o texto */
+        margin-bottom: 1rem; 
+        width: 90%;
+
+    }
+    
+    .main strong {
+        color: #F4F4F4;
+    }
+    
+    .main-button {
+        width: 80%; /* Usando largura relativa para garantir que o botão se ajuste à largura do conteúdo */
+        height: 4rem; /* Reduzindo a altura do botão */
+        font-size: 1.3rem; /* Reduzindo o tamanho do texto do botão */
+    }
+
+    .logotipo{
+        position: fixed;
+        left: 38%;
+        margin-bottom: 2rem;
+        top: 2%;
+        height: 4rem;
+        
+    }
+
+}
+    
+
+
+
+    @media only screen and (min-width: 768px) and (max-width: 1440px) {
+        
+        .home {
+            background-color: blue;
+            background-repeat: no-repeat;
+            background-size: cover; /* Para garantir que a imagem de fundo cubra toda a tela */
+            min-height: 100vh; /* Usar min-height para garantir que o conteúdo se estenda até o final da tela */
+            display: flex;
+            flex-direction: column;
+            background-position: 90%;
+        }
+
+        
+        .logotipo{
+        position: fixed;
+         left: 48%;
+            margin-bottom: 2rem;
+            top: 2%;
+            height: 4rem;
+
+
+      }
+      
+  
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1280px) {
+
+
+        .home{
+            background-image: url(/public/images/background.png);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-repeat: no-repeat;
+            
+        }
+        .header{
+            height: 10vh;
+        }
+        a{
+            text-decoration: none;
+            color: #F4F4F4;
+        
+        }
+        
+        .nav{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 10vh;
+            justify-content: center;
+            align-items: center;
+            gap: 5rem;
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+            margin-left: 0;
+            
+        }
+        
+        .nav-button{
+            height: 3rem;
+            width: 12rem;
+            border-radius: 30px;
+            border: none;
+            background-color: #3081DB;
+            transition: 0.7s;
+        
+        }
+        .nav-button:hover{
+            background-color: #0a3e7a;
+            transition: 1s;
+        }
+        
+        
+        
+        .nav a{
+            font-size: 1.3rem;
+            color: #F4F4F4;
+            font-weight: 200;
+            transition: 1s;
+            display: flex;
+            height: 42px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        
+        
+        }
+        
+        .main{
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            grid-gap: 10rem;
+        }
+        .main h1{
+            font-size: 3rem;
+            font-family: var(--fonte);
+            width: 45rem;
+            height: 10rem;
+            font-weight: 700;
+            color: #3081DB;
+        }
+        
+        .main strong {
+            color: #F4F4F4;
+        }
+        
+        .main-button{
+            width: 36rem;
+            height: 3.5rem;
+            font-family: var(--fonte);
+            font-size: 1.5rem;
+            border-radius: 30px;
+            background-color: transparent;
+            border: #3081DB 2px solid;
+            color: #F4F4F4;
+            transition: 0.8s;
+        
+        }
+        
+        
+        
+        .main-button:hover{
+            color: #3081DB;
+            background-color: #3081DB;
+            border: #3081DB 2px solid;
+            transition: 0.8s;
+            cursor: pointer;
+        }
+        
+        .logotipo{
+            position: fixed;
+            left: 42%;
+            margin-bottom: 2rem;
+            top: 3%;
+            height: 3rem;
+            
+        }
+        
+        .whatsapp{
+            position: fixed;
+            bottom: 2%;
+            right: 2%;
+        }
+        
+        .whatsapp img{
+            height: 4rem;
+            transition: 1s ease;
+        }
+        
+        
+        .whatsapp:hover{
+            position: fixed;
+            bottom: 5%;
+            right: 2%;
+            transition: 1s ease;
+        }
+        
+        .buttons {
+            display: none;
+        }
+
+
+    }
+
+    
+

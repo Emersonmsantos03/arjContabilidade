@@ -1,0 +1,113 @@
+.proposals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 8rem;
+    padding: 0;
+}
+
+.proposals h1{
+
+margin-bottom: 2rem;
+font-family: 'Inter', sans-serif;
+color: #0E3168;
+font-size: 3rem;
+font-weight: 700;
+
+
+}
+
+.proposals-button{
+    border-radius: 0;
+    border: 1px #0E3168 solid;
+    background-color: transparent;
+    color: #0E3168;
+    width: 20rem;
+    height: 3.2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    
+    
+
+}
+
+.proposals-button:hover{
+    transition: 1s ease;
+    background-color: #0E3168;
+    color: #f4f4f4;
+
+}
+
+.proposals-button a{
+        text-decoration: none;
+        color: #0E3168;
+        width: 20rem;
+        height: 3.2rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+}
+.proposals-button a:hover{
+color: #f4f4f4;
+}
+
+.offers-list{
+ display: flex;
+ flex-direction: column;
+ gap: 3rem;
+ align-items: center;
+ justify-content: center;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .proposals{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 260vh;
+        width: 100%;
+        margin-top: 8rem;
+        padding: 0;
+    }
+
+    .proposals h1{
+        text-align: center;
+
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+.proposals-button{
+    margin-top: 3rem;
+}
+
+.proposals h1{
+
+    margin-bottom: 3rem;
+    font-family: 'Inter', sans-serif;
+    color: #0E3168;
+    font-size: 3rem;
+    font-weight: 700;
+    
+    
+    }
+
+}

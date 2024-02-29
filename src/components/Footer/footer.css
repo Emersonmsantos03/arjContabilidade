@@ -1,0 +1,38 @@
+.footer{
+    background-color: #404040;
+    width: 100%;
+    height: 20vh;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.social img{
+    height: 2rem;
+    width: auto;
+}
+
+.developed a{
+    color: #3081DB;
+    text-decoration: none;
+}
+
+.developed a:hover{
+    cursor: pointer;
+
+}
+
+.footer h3{
+    font-size: 1.2rem;
+}
