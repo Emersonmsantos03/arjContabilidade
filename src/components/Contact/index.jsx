@@ -45,7 +45,8 @@ const Contact = () => {
 
     <section className='contact'>
 
-      <h2>Ainda não sabe o quanto pode economizar? Saiba já!</h2>
+      <h2>Ainda não sabe o quanto pode economizar? </h2>
+      <h2>Saiba já!</h2>
     <div className="calculator-container">
       <h2>Calculadora de Impostos</h2>
       <div>

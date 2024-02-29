@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #0E3168;
-  gap: 4rem;
+  gap: 3rem;
   flex-direction: column;
   text-align: center;
 
@@ -96,3 +96,21 @@ body {
     content: "✓ ";
   }
   
+  @media screen and (max-width: 768px) {
+
+    .contact{
+      min-height: 100vh;
+    }
+      .calculator-container input[type="number"] {
+        width: 90%;
+    }
+    .calculator-container button {
+
+      width: 90%;
+    }
+
+    .calculator-container {
+
+      width: 95%;
+    }
+  }

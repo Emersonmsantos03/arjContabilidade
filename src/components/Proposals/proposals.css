@@ -80,7 +80,7 @@ color: #f4f4f4;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 260vh;
+        min-height: 270vh;
         width: 100%;
         margin-top: 8rem;
         padding: 0;
@@ -89,6 +89,12 @@ color: #f4f4f4;
     .proposals h1{
         text-align: center;
 
+    }
+
+    .offers-list{
+        margin: 0;
+        padding: 0;
+        width: 100%;
     }
 }
 
