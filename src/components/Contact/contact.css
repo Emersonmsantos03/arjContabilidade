@@ -112,5 +112,7 @@ body {
     .calculator-container {
 
       width: 95%;
+      height: auto;
+      padding: 1rem 0rem;
     }
   }
