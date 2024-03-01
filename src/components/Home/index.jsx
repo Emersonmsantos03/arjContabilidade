@@ -22,10 +22,10 @@ let Home = () => {
     </header>
     <div className="main">
       <h1>Contabilidade especializada para <strong>psicólogos</strong></h1>
-      <button className="main-button"><a target="__blank" href="https://wa.me/5585988185313?text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os%21
+      <button className="main-button"><a target="__blank" href="https://wa.me/5585988185316?text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os%21
 ">Fale com um especialista!</a></button>
     </div>
-    <a className="whatsapp" target="__blank" href="https://wa.me/5585988185313?text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os%21"><img src={whatsapp}/></a>
+    <a className="whatsapp" target="__blank" href="https://wa.me/5585988185316?text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os%21"><img src={whatsapp}/></a>
     <a href="#home"><img className="logotipo"src={logo}/></a>
   </section>
   )
