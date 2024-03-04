@@ -117,7 +117,7 @@ body {
   @media screen and (max-width: 768px) {
 
     .contact{
-      min-height: 150vh;
+      min-height: 130vh;
       display: flex;
       flex-direction: column;
     }
@@ -139,6 +139,7 @@ body {
     .contact-container{
       display: flex;
       flex-direction: column;
+      gap: 3rem;
     }
 
     .contact-container img{
