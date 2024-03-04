@@ -22,7 +22,7 @@ a{
     height: 10vh;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 12rem;
     font-family: 'Inter', sans-serif;
     text-align: center;
     margin-left: 12rem;
@@ -106,7 +106,7 @@ a{
 
 .logotipo{
     position: fixed;
-    left: 48%;
+    left: 47%;
     margin-bottom: 2rem;
     top: 2%;
     height: 4rem;

@@ -1,11 +1,12 @@
 import './about.css'
 import arjimg from '/public/images/arj-image.png'
+import psi from '/public/images/contabilidade-psi.png'
 
 let About = () => {
     return(
         <section className='about' id='about'>
             <div className='image'>
-                <img src={arjimg}/>
+                <img src={psi}/>
             </div>
             <div className='texts'>
                 <h2>Sobre nós</h2>

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     margin-top: 8rem;
     padding: 0;
@@ -70,6 +70,13 @@ color: #f4f4f4;
  gap: 3rem;
  align-items: center;
  justify-content: center;
+}
+
+.aumentou{
+    height: 40rem;
+    width: auto;
+    border-radius: 20px;
+    margin-bottom: 10rem;
 }
 
 

@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import './contact.css'
+import aumentou from '/public/images/aumentou.png'
+
 
 const Contact = () => {
   const [income, setIncome] = useState('');
@@ -45,8 +47,12 @@ const Contact = () => {
 
     <section className='contact'>
 
-      <h2>Ainda não sabe o quanto pode economizar? </h2>
-      <h2>Saiba já!</h2>
+  
+      <div className='contact-container'>
+        <div className='imagem'>
+          <img src={aumentou}/>
+
+        </div>
     <div className="calculator-container">
       <h2>Calculadora de Impostos</h2>
       <div>
@@ -63,8 +69,9 @@ const Contact = () => {
       <div>
         <h3>Imposto como Pessoa Física (PF): R$ {pfTax}</h3>
         <h3>Imposto como Pessoa Jurídica (PJ): R$ {pjTax}</h3>
-        <h3>Economia: R$ {(pfTax - pjTax).toFixed(2)}</h3>
+        <h3>Economia: R$ <strong>{(pfTax - pjTax).toFixed(2)}</strong></h3>
       </div>
+    </div>
     </div>
     </section>
   );
