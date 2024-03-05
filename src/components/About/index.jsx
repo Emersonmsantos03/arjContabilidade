@@ -11,9 +11,9 @@ let About = () => {
             <div className='texts'>
                 <h2>Sobre nós</h2>
                 <div className='paragraphs'>
-                <p>Com uma equipe de colaboradores treinados e especializados, a ARJ se destaca no atendimento personalizado, abrangendo todos os aspectos das necessidades contábeis e empresariais de nossos clientes.</p>
-                <p> Nossos profissionais são capacitados para lidar com uma ampla gama de questões, garantindo que nossos clientes recebam um serviço completo e integrado. </p>
-                <p>Reconhecemos a importância de uma comunicação eficaz e acessível, estando sempre disponíveis para responder às perguntas e preocupações dos nossos clientes, independentemente da urgência ou complexidade.</p>
+                <p>Na ARJ, com nossa equipe de colaboradores altamente treinados e especializados, destacamo-nos por oferecer um atendimento personalizado exclusivo para psicólogos. Cobrimos todos os aspectos das necessidades contábeis e empresariais específicas desse ramo.</p>
+                <p>Nossos profissionais possuem expertise para lidar com uma ampla gama de questões únicas enfrentadas por psicólogos, garantindo que nossos clientes recebam um serviço completo e integrado, totalmente adaptado às suas necessidades. </p>
+                <p>Reconhecemos que a comunicação eficaz é essencial. Estamos sempre disponíveis para responder prontamente as perguntas e preocupações dos nossos clientes, como questões sobre notas fiscais, impostos, exigências de plano de saúde para reembolso, entre outras. Independentemente da urgência ou complexidade, asseguramos uma experiência tranquila e confiável em todos os momentos.</p>
                 </div>
 
             </div>

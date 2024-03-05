@@ -29,18 +29,15 @@ const Contact = () => {
       const simplesNacional = incomeFloat * 0.06;
       const contabilidade = 350;
       const coworking = 80;
-      const irrf = 163.84;
       const baseIRRF = deducaoIRRF > descontoINSS ? folhaPagamento - deducaoIRRF : folhaPagamento - descontoINSS;
 
-      if (incomeFloat > 4664.68) {
-        pjTaxValue = baseIRRF * 0.275 - 896;
-      } else if (incomeFloat >= 3751.06) {
-        pjTaxValue = baseIRRF * 0.225 - 662.77;
-      } else if (incomeFloat >= 2826.66) {
-        pjTaxValue = baseIRRF * 0.15 - 381.44;
-      } else if (incomeFloat >= 2259.21) {
-        pjTaxValue = baseIRRF * 0.075 - 169.44;
-      }
+      const irrf =
+        baseIRRF <= 2259.21 ? 0 :
+        baseIRRF < 2826.66 ? (baseIRRF > 2259.20 ? baseIRRF * 0.075 - 169.44 : 0) :
+        baseIRRF < 3751.06 ? (baseIRRF > 2826.65 ? baseIRRF * 0.15 - 381.44 : 0) :
+        baseIRRF < 4664.69 ? (baseIRRF > 3751.05 ? baseIRRF * 0.225 - 662.77 : 0) :
+        baseIRRF * 0.275 - 896;
+
       pjTaxValue = descontoINSS + simplesNacional + contabilidade + coworking + irrf;
     }
 
